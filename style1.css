@@ -1,0 +1,116 @@
+*{margin:1px auto;}
+body,tbody{
+    
+    background:#f8f9fa;
+    width:99%;
+}
+
+.tombol{
+    background: #202340;
+    color: #ffffff;
+    font-weight: bold;
+    border: hidden;
+}
+.form{
+    
+    padding:30px;
+    border:1px solid #eee;
+    background:#fff;
+    margin-left:30%;
+    font-size: 1px;
+    width:99%;
+    height:300px;
+}
+.dropmenu {
+    
+    position: relative;
+    background: #202340;
+    height: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+.dropmenu li {
+    border-right: solid 1px white;
+    float: left;
+    height: 30px;
+}
+.dropmenu li a {
+    color: #fff;
+    display: block;
+    font: 12px arial, verdana, sans-serif;
+    font-weight: bold;
+    padding: 9px 20px;
+    text-decoration: none;
+}
+.dropmenu li:hover { background: #202340; position: relative; }
+.dropmenu li:hover a { text-decoration: underline; }
+.dropmenu li:hover ul {
+    background-color: #202340;
+    border: 1px solid grey;
+    left: 0px;
+    padding: 3px;
+    top: 30px;
+    width: 160px;
+}
+.dropmenu li:hover ul li { border: none; height: 18px; }
+.dropmenu li:hover ul li a {
+    background-color: #202340;
+    border: 1px solid transparent;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 158px;
+    padding: 3px;
+}
+.dropmenu li:hover ul li a:hover {
+    background: silver;
+    border: solid 1px #444;
+    color: #000;
+    height: 18px;
+    padding: 3px;
+}
+.dropmenu ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+    top: -9999px;
+}
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+.value_content{
+    left: 0;
+    width: 100%;
+}
+.content {
+    width: 100%;
+}
+.font-size {
+   
+    font-size: 300px;
+    
+}
+.table {
+text-align:center;height:30px;padding:5px;border: 1px solid #eee;
+}
+h2{text-align:center;margin-bottom:30px;}
+input,button {height:30px}
+table{border-collapse:collapse;max-width: 90%;border:1px solid #ddd}
+
+#rowhover tr:hover td {background:#CCCCCC;}
+.footer{text-align:center;}
